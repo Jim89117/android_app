@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Monster_electricity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="台灣電力公司">https://www.taipower.com.tw/tc/index.aspx</string>
+    <string name="節能標章">https://www.energylabel.org.tw/</string>
+    <string name="工研院">https://saving.energypark.org.tw/</string>
+    <string name="政大社科院">http://green.nccu.edu.tw/green/</string>
+    <string name="能源中心">https://learnenergy.tw/index.php</string>
+</resources>

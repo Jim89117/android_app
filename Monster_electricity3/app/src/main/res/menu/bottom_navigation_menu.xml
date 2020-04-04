@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/home_orange"
+        android:title="Home" />
+    <item
+        android:id="@+id/appFragment2"
+        android:icon="@drawable/app_orange"
+        android:title="App" />
+    <item
+        android:id="@+id/introFragment"
+        android:icon="@drawable/info_orange"
+        android:title="Introduction" />
+    <item
+        android:id="@+id/knowledgeFragment"
+        android:icon="@drawable/knowledge_orange"
+        android:title="Knowledge" />
+
+</menu>

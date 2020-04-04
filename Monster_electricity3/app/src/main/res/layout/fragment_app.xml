@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/RL_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/App_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=" APP - 功能"
+            android:textColor="#AF6921"
+            android:background="#F3DC05"
+            android:textSize="30sp"
+            android:paddingTop="5dp"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/規格省電試算"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/bird" />
+
+        <Button
+            android:id="@+id/規格省電試算"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_below="@+id/App_tv_title"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/selector"
+            android:text="規格省電試算"
+            android:textColor="#ffffff"
+            android:textSize="26dp" />
+
+        <Button
+            android:id="@+id/特定規格搜尋"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_below="@+id/規格省電試算"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/selector"
+            android:text="特定規格搜尋"
+            android:textSize="26dp"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/掃圖搜尋"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_below="@+id/特定規格搜尋"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/selector"
+            android:gravity="center"
+            android:text="掃圖搜尋"
+            android:textSize="26dp"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_below="@id/掃圖搜尋"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:background="#DDDADA"
+            android:paddingTop="5dp"
+            android:text="到底頁囉"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</ScrollView>
